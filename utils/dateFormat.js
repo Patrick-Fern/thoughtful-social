@@ -3,17 +3,17 @@ const addDateSuffix = (date) => {
 
     const lastChar = dateStng.charAt(dateStng.length -1);
 
-    if (lastChar === '1' && dateStr !== '11') {
-        dateStr = `${dateStr}st`;
-      } else if (lastChar === '2' && dateStr !== '12') {
-        dateStr = `${dateStr}nd`;
-      } else if (lastChar === '3' && dateStr !== '13') {
-        dateStr = `${dateStr}rd`;
+    if (lastChar === '1' && dateStng !== '11') {
+        dateStng = `${dateStng}st`;
+      } else if (lastChar === '2' && dateStng !== '12') {
+        dateStng = `${dateStng}nd`;
+      } else if (lastChar === '3' && dateStng !== '13') {
+        dateStng = `${dateStng}rd`;
       } else {
-        dateStr = `${dateStr}th`;
+        dateStng = `${dateStng}th`;
       }
     
-      return dateStr;
+      return dateStng;
 };
 
 module.exports = (
