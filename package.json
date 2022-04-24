@@ -1,0 +1,24 @@
+{
+  "name": "thoughtful-social",
+  "version": "1.0.0",
+  "description": "A micro-blog social media site",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Patrick-Fern/thoughtful-social.git"
+  },
+  "author": "Patrick Fernbach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Patrick-Fern/thoughtful-social/issues"
+  },
+  "homepage": "https://github.com/Patrick-Fern/thoughtful-social#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.3.1"
+  }
+}
